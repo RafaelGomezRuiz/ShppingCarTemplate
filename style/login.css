@@ -32,6 +32,13 @@ figure{
     margin-bottom: 12px;
     text-align: center;
 }
+/* crear cuenta */
+.title-crearCuenta{
+    font-size: var(--lg);
+    margin-bottom: 36px;
+    justify-self: start;
+}
+
 .subtitle{
     color: var(--very-light-pink);
     font-size: var(--md);
@@ -41,9 +48,14 @@ figure{
 }
 
 .form{
-    display: grid;
-    grid-template-columns: auto;
-    width: 300px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+/* crear cuenta */
+.form div{
+    display: flex;
+    flex-direction: column;
 }
 /* k */
 .form a{
@@ -56,8 +68,15 @@ figure{
 .label{
     font-size: var(--sm);
     font-weight: bold;
-    margin-bottom: 4px;
+    margin-bottom: 10px;
 }
+/* //editit */
+.value{
+    color: var(--very-light-pink);
+    font-size: var(--lg);
+    margin: 8px 0 32px 0;
+}
+
 
 .input{
     background-color: var(--text-input-field);
@@ -67,6 +86,10 @@ figure{
     font-size: var(--md);
     padding: 8px;
     margin-bottom: 16px;
+}
+/*Crear*/
+.input-name,.input-email,.input-password{
+    margin-bottom: 22px;
 }
 .email-image{
     width: 132px;
@@ -129,5 +152,14 @@ figure{
     }
     .secondary-button{
         margin-top: 30vh;
+    }
+
+    .form-container{
+        height: 100%;
+        width: 300px;
+    }
+    .form {
+        height: 100%;
+        justify-content: space-between;
     }
 }

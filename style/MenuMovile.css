@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-movile{
+    padding: 24px;
+}
+.menu-movile a{
+    text-decoration: none;
+    color: var(--black);
+    font-weight: bold;
+}
+.menu-movile ul{
+    text-decoration: none;
+    margin: 24px 0 0;
+    color: var(--black);
+    list-style: none;
+}
+.menu-movile ul:nth-child(1){
+    border-bottom: 1px solid var(--very-light-pink);
+}
+.menu-movile ul:nth-child(3){
+    margin-top: 170px;
+}
+.menu-movile li{
+    margin-bottom: 24px;
+}
+
+.email{
+    font-size: var(--sm);
+    font-weight: 300 !important;
+}
+.sign-out{
+    color: var(--hospital-green) !important;
+    font-size: var(--sm);
+}
